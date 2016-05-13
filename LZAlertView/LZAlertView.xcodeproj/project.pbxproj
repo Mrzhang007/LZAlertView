@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		519952961CE5C9F0008940BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 519952951CE5C9F0008940BC /* main.m */; };
+		519952991CE5C9F0008940BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519952981CE5C9F0008940BC /* AppDelegate.m */; };
+		5199529C1CE5C9F0008940BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5199529B1CE5C9F0008940BC /* ViewController.m */; };
+		5199529F1CE5C9F0008940BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5199529D1CE5C9F0008940BC /* Main.storyboard */; };
+		519952A11CE5C9F0008940BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519952A01CE5C9F0008940BC /* Assets.xcassets */; };
+		519952A41CE5C9F0008940BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519952A21CE5C9F0008940BC /* LaunchScreen.storyboard */; };
+		519952AF1CE5C9F0008940BC /* LZAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519952AE1CE5C9F0008940BC /* LZAlertViewTests.m */; };
+		519952BA1CE5C9F0008940BC /* LZAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519952B91CE5C9F0008940BC /* LZAlertViewUITests.m */; };
+		519952CA1CE5CA1B008940BC /* LZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519952C91CE5CA1B008940BC /* LZAlertView.m */; };
+		519952D01CE5CA4B008940BC /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 519952CD1CE5CA4B008940BC /* UITableView+SDAutoTableViewCellHeight.m */; };
+		519952D11CE5CA4B008940BC /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 519952CF1CE5CA4B008940BC /* UIView+SDAutoLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		519952AB1CE5C9F0008940BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 519952891CE5C9F0008940BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 519952901CE5C9F0008940BC;
+			remoteInfo = LZAlertView;
+		};
+		519952B61CE5C9F0008940BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 519952891CE5C9F0008940BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 519952901CE5C9F0008940BC;
+			remoteInfo = LZAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		519952911CE5C9F0008940BC /* LZAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		519952951CE5C9F0008940BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		519952971CE5C9F0008940BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		519952981CE5C9F0008940BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5199529A1CE5C9F0008940BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5199529B1CE5C9F0008940BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5199529E1CE5C9F0008940BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		519952A01CE5C9F0008940BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		519952A31CE5C9F0008940BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		519952A51CE5C9F0008940BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519952AA1CE5C9F0008940BC /* LZAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		519952AE1CE5C9F0008940BC /* LZAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAlertViewTests.m; sourceTree = "<group>"; };
+		519952B01CE5C9F0008940BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519952B51CE5C9F0008940BC /* LZAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		519952B91CE5C9F0008940BC /* LZAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAlertViewUITests.m; sourceTree = "<group>"; };
+		519952BB1CE5C9F1008940BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519952C81CE5CA1B008940BC /* LZAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAlertView.h; sourceTree = "<group>"; };
+		519952C91CE5CA1B008940BC /* LZAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAlertView.m; sourceTree = "<group>"; };
+		519952CC1CE5CA4B008940BC /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		519952CD1CE5CA4B008940BC /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		519952CE1CE5CA4B008940BC /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		519952CF1CE5CA4B008940BC /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5199528E1CE5C9F0008940BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519952A71CE5C9F0008940BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519952B21CE5C9F0008940BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		519952881CE5C9F0008940BC = {
+			isa = PBXGroup;
+			children = (
+				519952931CE5C9F0008940BC /* LZAlertView */,
+				519952AD1CE5C9F0008940BC /* LZAlertViewTests */,
+				519952B81CE5C9F0008940BC /* LZAlertViewUITests */,
+				519952921CE5C9F0008940BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		519952921CE5C9F0008940BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				519952911CE5C9F0008940BC /* LZAlertView.app */,
+				519952AA1CE5C9F0008940BC /* LZAlertViewTests.xctest */,
+				519952B51CE5C9F0008940BC /* LZAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		519952931CE5C9F0008940BC /* LZAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				519952CB1CE5CA4B008940BC /* SDAutoLayout */,
+				519952C71CE5CA1B008940BC /* LZAlertView */,
+				519952971CE5C9F0008940BC /* AppDelegate.h */,
+				519952981CE5C9F0008940BC /* AppDelegate.m */,
+				5199529A1CE5C9F0008940BC /* ViewController.h */,
+				5199529B1CE5C9F0008940BC /* ViewController.m */,
+				5199529D1CE5C9F0008940BC /* Main.storyboard */,
+				519952A01CE5C9F0008940BC /* Assets.xcassets */,
+				519952A21CE5C9F0008940BC /* LaunchScreen.storyboard */,
+				519952A51CE5C9F0008940BC /* Info.plist */,
+				519952941CE5C9F0008940BC /* Supporting Files */,
+			);
+			path = LZAlertView;
+			sourceTree = "<group>";
+		};
+		519952941CE5C9F0008940BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				519952951CE5C9F0008940BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		519952AD1CE5C9F0008940BC /* LZAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				519952AE1CE5C9F0008940BC /* LZAlertViewTests.m */,
+				519952B01CE5C9F0008940BC /* Info.plist */,
+			);
+			path = LZAlertViewTests;
+			sourceTree = "<group>";
+		};
+		519952B81CE5C9F0008940BC /* LZAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				519952B91CE5C9F0008940BC /* LZAlertViewUITests.m */,
+				519952BB1CE5C9F1008940BC /* Info.plist */,
+			);
+			path = LZAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		519952C71CE5CA1B008940BC /* LZAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				519952C81CE5CA1B008940BC /* LZAlertView.h */,
+				519952C91CE5CA1B008940BC /* LZAlertView.m */,
+			);
+			path = LZAlertView;
+			sourceTree = "<group>";
+		};
+		519952CB1CE5CA4B008940BC /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				519952CC1CE5CA4B008940BC /* UITableView+SDAutoTableViewCellHeight.h */,
+				519952CD1CE5CA4B008940BC /* UITableView+SDAutoTableViewCellHeight.m */,
+				519952CE1CE5CA4B008940BC /* UIView+SDAutoLayout.h */,
+				519952CF1CE5CA4B008940BC /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		519952901CE5C9F0008940BC /* LZAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 519952BE1CE5C9F1008940BC /* Build configuration list for PBXNativeTarget "LZAlertView" */;
+			buildPhases = (
+				5199528D1CE5C9F0008940BC /* Sources */,
+				5199528E1CE5C9F0008940BC /* Frameworks */,
+				5199528F1CE5C9F0008940BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZAlertView;
+			productName = LZAlertView;
+			productReference = 519952911CE5C9F0008940BC /* LZAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		519952A91CE5C9F0008940BC /* LZAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 519952C11CE5C9F1008940BC /* Build configuration list for PBXNativeTarget "LZAlertViewTests" */;
+			buildPhases = (
+				519952A61CE5C9F0008940BC /* Sources */,
+				519952A71CE5C9F0008940BC /* Frameworks */,
+				519952A81CE5C9F0008940BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519952AC1CE5C9F0008940BC /* PBXTargetDependency */,
+			);
+			name = LZAlertViewTests;
+			productName = LZAlertViewTests;
+			productReference = 519952AA1CE5C9F0008940BC /* LZAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		519952B41CE5C9F0008940BC /* LZAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 519952C41CE5C9F1008940BC /* Build configuration list for PBXNativeTarget "LZAlertViewUITests" */;
+			buildPhases = (
+				519952B11CE5C9F0008940BC /* Sources */,
+				519952B21CE5C9F0008940BC /* Frameworks */,
+				519952B31CE5C9F0008940BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519952B71CE5C9F0008940BC /* PBXTargetDependency */,
+			);
+			name = LZAlertViewUITests;
+			productName = LZAlertViewUITests;
+			productReference = 519952B51CE5C9F0008940BC /* LZAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		519952891CE5C9F0008940BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张重";
+				TargetAttributes = {
+					519952901CE5C9F0008940BC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					519952A91CE5C9F0008940BC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 519952901CE5C9F0008940BC;
+					};
+					519952B41CE5C9F0008940BC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 519952901CE5C9F0008940BC;
+					};
+				};
+			};
+			buildConfigurationList = 5199528C1CE5C9F0008940BC /* Build configuration list for PBXProject "LZAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 519952881CE5C9F0008940BC;
+			productRefGroup = 519952921CE5C9F0008940BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				519952901CE5C9F0008940BC /* LZAlertView */,
+				519952A91CE5C9F0008940BC /* LZAlertViewTests */,
+				519952B41CE5C9F0008940BC /* LZAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5199528F1CE5C9F0008940BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519952A41CE5C9F0008940BC /* LaunchScreen.storyboard in Resources */,
+				519952A11CE5C9F0008940BC /* Assets.xcassets in Resources */,
+				5199529F1CE5C9F0008940BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519952A81CE5C9F0008940BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519952B31CE5C9F0008940BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5199528D1CE5C9F0008940BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5199529C1CE5C9F0008940BC /* ViewController.m in Sources */,
+				519952CA1CE5CA1B008940BC /* LZAlertView.m in Sources */,
+				519952D11CE5CA4B008940BC /* UIView+SDAutoLayout.m in Sources */,
+				519952991CE5C9F0008940BC /* AppDelegate.m in Sources */,
+				519952961CE5C9F0008940BC /* main.m in Sources */,
+				519952D01CE5CA4B008940BC /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519952A61CE5C9F0008940BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519952AF1CE5C9F0008940BC /* LZAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519952B11CE5C9F0008940BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519952BA1CE5C9F0008940BC /* LZAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		519952AC1CE5C9F0008940BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 519952901CE5C9F0008940BC /* LZAlertView */;
+			targetProxy = 519952AB1CE5C9F0008940BC /* PBXContainerItemProxy */;
+		};
+		519952B71CE5C9F0008940BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 519952901CE5C9F0008940BC /* LZAlertView */;
+			targetProxy = 519952B61CE5C9F0008940BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5199529D1CE5C9F0008940BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5199529E1CE5C9F0008940BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		519952A21CE5C9F0008940BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519952A31CE5C9F0008940BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		519952BC1CE5C9F1008940BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		519952BD1CE5C9F1008940BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		519952BF1CE5C9F1008940BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.zhang.LZAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		519952C01CE5C9F1008940BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.zhang.LZAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		519952C21CE5C9F1008940BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.zhang.LZAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZAlertView.app/LZAlertView";
+			};
+			name = Debug;
+		};
+		519952C31CE5C9F1008940BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.zhang.LZAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZAlertView.app/LZAlertView";
+			};
+			name = Release;
+		};
+		519952C51CE5C9F1008940BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.zhang.LZAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZAlertView;
+			};
+			name = Debug;
+		};
+		519952C61CE5C9F1008940BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.zhang.LZAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5199528C1CE5C9F0008940BC /* Build configuration list for PBXProject "LZAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519952BC1CE5C9F1008940BC /* Debug */,
+				519952BD1CE5C9F1008940BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		519952BE1CE5C9F1008940BC /* Build configuration list for PBXNativeTarget "LZAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519952BF1CE5C9F1008940BC /* Debug */,
+				519952C01CE5C9F1008940BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		519952C11CE5C9F1008940BC /* Build configuration list for PBXNativeTarget "LZAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519952C21CE5C9F1008940BC /* Debug */,
+				519952C31CE5C9F1008940BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		519952C41CE5C9F1008940BC /* Build configuration list for PBXNativeTarget "LZAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519952C51CE5C9F1008940BC /* Debug */,
+				519952C61CE5C9F1008940BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 519952891CE5C9F0008940BC /* Project object */;
+}
